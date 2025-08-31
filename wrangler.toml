@@ -1,0 +1,11 @@
+name = "ai-chat-worker"
+main = "src/index.ts"
+compatibility_date = "2023-10-30"
+
+[vars]
+DEEPSEEK_API_KEY = ""
+DEEPSEEK_API_URL = "https://api.deepseek.com/v1/chat/completions"
+
+[env.production.vars]
+DEEPSEEK_API_KEY = ""
+DEEPSEEK_API_URL = "https://api.deepseek.com/v1/chat/completions"
